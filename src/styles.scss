@@ -1,3 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
 
+// if you put node_modules/@visual-framework in the sass include path
 @import 'vf-sass-starter/index.scss';
+/* Sass compilation error
+
+ERROR in ./src/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./node_modules/sass-loader/dist/cjs.js??ref--13-3!./src/styles.scss)
+Module Error (from ./node_modules/postcss-loader/src/index.js):
+(Emitted value instead of an instance of Error) CssSyntaxError: /home/nicola.buso/projects/covid19-portal/src/ng-vf-sass-starter-demo/node_modules/@visual-framework/vf-font-plex-mono/assets/scss/mono/regular/_index.scss:6:2: Can't resolve '../assets/vf-font-plex-mono/assets/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff' in '/home/nicola.buso/projects/covid19-portal/src/ng-vf-sass-starter-demo/src'
+
+  4 |   font-style: normal;
+  5 |   font-weight: 400;
+> 6 |   src: local('IBM Plex Mono'),
+    |  ^
+  7 |     local('IBMPlexMono'),
+  8 |     url('#{$vf-font-plex-mono-prefix}/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff') format('woff');
+
+NonErrorEmittedError: (Emitted value instead of an instance of Error) CssSyntaxError: /home/nicola.buso/projects/covid19-portal/src/ng-vf-sass-starter-demo/node_modules/@visual-framework/vf-font-plex-mono/assets/scss/mono/regular/_index.scss:6:2: Can't resolve '../assets/vf-font-plex-mono/assets/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff' in '/home/nicola.buso/projects/covid19-portal/src/ng-vf-sass-starter-demo/src'
+
+*/
+
+
+
+// if you put node_modules in the sass include path
+// @import '@visual-framework/vf-sass-starter/index.scss';
+/* Sass compilation error
+
+ERROR in ./src/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./node_modules/sass-loader/dist/cjs.js??ref--13-3!./src/styles.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: Can't find stylesheet to import.
+  ╷
+2 │ @import 'vf-sass-config/index.scss';
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+  node_modules/@visual-framework/vf-sass-starter/index.scss 2:9  @import
+  /home/nicola.buso/projects/covid19-portal/src/ng-vf-sass-starter-demo/src/styles.scss 7:9                                                      root stylesheet
+SassError: SassError: Can't find stylesheet to import.
+  ╷
+2 │ @import 'vf-sass-config/index.scss';
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* below a version that work without the IBM Plex fonts imports (comment the lines above to try) */
+
+// // Import Sass Variables, Mixins, and Functions from @visual-framework/vf-sass-config
+// @import 'vf-sass-config/index.scss';
+//
+// // Include all Utility Classes from @visual-framework/vf-utility-classes
+// @import 'vf-sass-config/mixins/vf-utility-mixins.scss';
+// @import 'vf-utility-classes/vf-utility-classes.scss';
+//
+// // Include all SCSS Utilities from @visual-framework/vf-sass-utilities
+// @import 'vf-sass-utilities/vf-sass-utilities.scss';
