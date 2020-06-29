@@ -19,6 +19,12 @@
     "@angular/platform-browser": "~9.1.7",
     "@angular/platform-browser-dynamic": "~9.1.7",
     "@angular/router": "~9.1.7",
+    "@visual-framework/vf-font-plex-mono": "^1.1.0",
+    "@visual-framework/vf-font-plex-sans": "^1.1.0",
+    "@visual-framework/vf-sass-config": "^1.1.1",
+    "@visual-framework/vf-sass-starter": "^0.0.3",
+    "@visual-framework/vf-sass-utilities": "^1.0.1",
+    "@visual-framework/vf-utility-classes": "^1.0.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

@@ -30,6 +30,11 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules/@visual-framework/"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -123,6 +128,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-vf-sass-starter-demo"
+    }
+  },
+  "defaultProject": "ng-vf-sass-starter-demo",
+  "cli": {
+    "analytics": false
+  }
 }
