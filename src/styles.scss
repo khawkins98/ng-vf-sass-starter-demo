@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 // if you put node_modules/@visual-framework in the sass include path
-@import 'vf-sass-starter/index.scss';
+// @import 'vf-sass-starter/index.scss';
 /* Sass compilation error
 
 ERROR in ./src/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./node_modules/sass-loader/dist/cjs.js??ref--13-3!./src/styles.scss)
@@ -22,7 +22,7 @@ NonErrorEmittedError: (Emitted value instead of an instance of Error) CssSyntaxE
 
 
 // if you put node_modules in the sass include path
-// @import '@visual-framework/vf-sass-starter/index.scss';
+@import '@visual-framework/vf-sass-starter/index.scss';
 /* Sass compilation error
 
 ERROR in ./src/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./node_modules/sass-loader/dist/cjs.js??ref--13-3!./src/styles.scss)
