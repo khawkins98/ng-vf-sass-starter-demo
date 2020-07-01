@@ -3,6 +3,12 @@
 // if you put node_modules/@visual-framework in the sass include path
 // @import 'vf-sass-starter/index.scss';
 
+// Specify location of font assets
+// There may also be an issue in the vf-font relative paths,
+// but angular's compiler seems to also want the full project location
+$vf-font-plex-mono-prefix: 'node_modules/@visual-framework/vf-font-plex-mono/assets';
+$vf-font-plex-sans-prefix: 'node_modules/@visual-framework/vf-font-plex-sans/assets';
+
 // if you put node_modules in the sass include path
 @import '@visual-framework/vf-sass-starter/index.scss';
 
